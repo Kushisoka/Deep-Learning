@@ -107,9 +107,9 @@ val_batch_size = 64*8
 
 start_time = time.time()
 
-dataset = np.load("Deep_Learning/dataset.npy")
+dataset = np.load("gdrive/My Drive/TPU/dataset.npy")
 
-dataset_labels = np.load("Deep_Learning/dataset_labels.npy")
+dataset_labels = np.load("gdrive/My Drive/TPU/dataset.npy")
 
 validation_split = 0.2
 

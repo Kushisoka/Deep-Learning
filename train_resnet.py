@@ -1,4 +1,5 @@
 import os
+import sys
 import pprint
 import tensorflow as tf
 from tensorflow.python import debug as tf_debug
@@ -107,9 +108,9 @@ val_batch_size = 64*8
 
 start_time = time.time()
 
-dataset = np.load("gdrive/My Drive/TPU/dataset.npy")
+dataset = np.load("../gdrive/My Drive/TPU/dataset.npy")
 
-dataset_labels = np.load("gdrive/My Drive/TPU/dataset.npy")
+dataset_labels = np.load("../gdrive/My Drive/TPU/dataset.npy")
 
 validation_split = 0.2
 
